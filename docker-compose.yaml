@@ -8,6 +8,5 @@ services:
     container_name: watchtower
   express-app:
     image: mriekkin2/docker-express-app
-    platform: linux/amd64
     ports:
       - 8080:8080
